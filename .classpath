@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-3.1.10-bin.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/iText-2.1.5.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/jcommon-1.0.18.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/jfreechart-1.0.15.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/jfreechart-1.0.15-swt.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="E:/EnergyService/EnergyService/WebRoot/WEB-INF/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/libs-sources/jdo2-api-2.3-eb-sources.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

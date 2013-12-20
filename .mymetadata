@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="EnergyService"
+  id="myeclipse.1371817012467"
+  context-root="/EnergyService"
+  j2ee-spec="5.0"
+  archive="EnergyService.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

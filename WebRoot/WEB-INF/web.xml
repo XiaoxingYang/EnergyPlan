@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>SaveSessionServlet</servlet-name>
+  <servlet-class>com.yxx.controller.SaveSessionServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CheckUserServlet</servlet-name>
+  <servlet-class>com.yxx.controller.CheckUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ShowAllOptionServlet</servlet-name>
+  <servlet-class>com.yxx.controller.ShowAllOptionServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>EnergyCostServlet</servlet-name>
+  <servlet-class>com.yxx.controller.EnergyCostServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.yxx.controller.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>com.yxx.controller.LogoutServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddDecisionServlet</servlet-name>
+  <servlet-class>com.yxx.controller.AddDecisionServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ShowAllDecisionServlet</servlet-name>
+  <servlet-class>com.yxx.controller.ShowAllDecisionServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ShowPersonInfoServlet</servlet-name>
+  <servlet-class>com.yxx.controller.ShowPersonInfoServlet</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonInfoEditServlet</servlet-name>
+    <servlet-class>com.yxx.controller.PersonInfoEditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetRouteFromGoogleServlet</servlet-name>
+    <servlet-class>com.yxx.controller.GetRouteFromGoogleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowRecomendServlet</servlet-name>
+    <servlet-class>com.yxx.controller.ShowRecomendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowHomeServlet</servlet-name>
+    <servlet-class>com.yxx.controller.ShowHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowPic</servlet-name>
+    <servlet-class>com.yxx.controller.ShowPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSingleRouteFromGoogleServlet</servlet-name>
+    <servlet-class>com.yxx.controller.GetSingleRouteFromGoogleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StayHomeServlet</servlet-name>
+    <servlet-class>com.yxx.controller.StayHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddHouseServlet</servlet-name>
+    <servlet-class>com.yxx.controller.AddHouseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowHomeDecisionServlet</servlet-name>
+    <servlet-class>com.yxx.controller.ShowHomeDecisionServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>SaveSessionServlet</servlet-name>
+  <url-pattern>/SaveSessionServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CheckUserServlet</servlet-name>
+  <url-pattern>/CheckUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ShowAllOptionServlet</servlet-name>
+  <url-pattern>/ShowAllOptionServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>EnergyCostServlet</servlet-name>
+  <url-pattern>/EnergyCostServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/LogoutServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddDecisionServlet</servlet-name>
+  <url-pattern>/AddDecisionServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ShowAllDecisionServlet</servlet-name>
+  <url-pattern>/ShowAllDecisionServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ShowPersonInfoServlet</servlet-name>
+  <url-pattern>/ShowPersonInfoServlet</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoEditServlet</servlet-name>
+    <url-pattern>/PersonInfoEditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRouteFromGoogleServlet</servlet-name>
+    <url-pattern>/GetRouteFromGoogleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowRecomendServlet</servlet-name>
+    <url-pattern>/ShowRecomendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowHomeServlet</servlet-name>
+    <url-pattern>/ShowHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowPic</servlet-name>
+    <url-pattern>/ShowPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingleRouteFromGoogleServlet</servlet-name>
+    <url-pattern>/GetSingleRouteFromGoogleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StayHomeServlet</servlet-name>
+    <url-pattern>/StayHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddHouseServlet</servlet-name>
+    <url-pattern>/AddHouseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowHomeDecisionServlet</servlet-name>
+    <url-pattern>/ShowHomeDecisionServlet</url-pattern>
+  </servlet-mapping>
+  
+ <welcome-file-list>
+  <welcome-file>homepage.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
